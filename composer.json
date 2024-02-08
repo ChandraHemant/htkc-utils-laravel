@@ -1,0 +1,21 @@
+{
+    "name": "chandra-hemant/htkc-utils-laravel",
+    "description": "Experience the next level of Laravel development with HTKC Utils Laravel. Elevate your projects, boost productivity, and unlock new possibilities with our powerful utilities library. Get started today and revolutionize your Laravel development experience.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ChandraHemant\\HtkcUtilsLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hemant Kumar Chandra",
+            "email": "hemantchandra242@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "maatwebsite/excel": "^3.1"
+    }
+}
