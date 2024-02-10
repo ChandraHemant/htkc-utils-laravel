@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\DB;
 
 class LaravelXUtilsHelper
 {
-    public static function getModelData(Model $eloquentModel, array $column)
+    public static function getCustomModelData(Model $eloquentModel, array $column)
     {
         $query = $eloquentModel->query();
     }
